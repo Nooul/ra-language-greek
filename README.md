@@ -16,10 +16,10 @@ npm install --save aor-language-greek
 import greekMessages from 'aor-language-greek';
 
 const messages = {
-    'gr': greekMessages,
+    'el': greekMessages,
 };
 
-<Admin locale="gr" messages={messages}>
+<Admin locale="el" messages={messages}>
   ...
 </Admin>
 ```
