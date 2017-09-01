@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marmelab/aor-language-greek.git"
+    "url": "git+https://github.com/zifnab87/aor-language-greek.git"
   },
   "keywords": [
     "react",
@@ -18,7 +18,7 @@
   "author": "Michail Michailidis",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marmelab/aor-language-greek/issues"
+    "url": "https://github.com/zifnab87/aor-language-greek/issues"
   },
-  "homepage": "https://github.com/marmelab/aor-language-greek#readme"
+  "homepage": "https://github.com/zifnab87/aor-language-greek#readme"
 }
