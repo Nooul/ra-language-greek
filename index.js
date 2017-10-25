@@ -11,6 +11,7 @@ export default {
             refresh: 'Ανανέωση',
             add_filter: 'Προσθήκη φίλτρου',
             remove_filter: 'Διαγραφή φίλτρου',
+            back: 'Επιστροφή'
         },
         boolean: {
             true: 'Ναι',
@@ -23,6 +24,7 @@ export default {
             create: 'Δημιουργία %{name}',
             delete: 'Διαγραφή %{name} #%{id}',
             dashboard: 'Αρχική',
+            not_found: 'Η σελίδα δεν υπάρχει'
         },
         input: {
             file: {
@@ -39,6 +41,7 @@ export default {
             no: 'Όχι',
             are_you_sure: 'Είστε σίγουρος;',
             about: 'Σχετικά',
+            not_found: 'Είτε πληκτρολογήσατε λάθος URL, είτε ακολουθήσατε λάθος σύνδεσμο',
         },
         navigation: {
             no_results: 'Δεν βρέθηκαν αποτελέσματα',
