@@ -2,16 +2,16 @@ module.exports = {
      aor: {
         action: {
             delete: 'Διαγραφή',
-            show: 'Εμφάνιση',
-            list: 'Λίστα',
-            save: 'Αποθήκευση',
-            create: 'Δημιουργία',
+            show: 'Εμφανιση',
+            list: 'Λιστα',
+            save: 'Αποθηκευση',
+            create: 'Δημιουργια',
             edit: 'Επεξεργασία',
-            cancel: 'Ακύρωση',
-            refresh: 'Ανανέωση',
-            add_filter: 'Προσθήκη φίλτρου',
-            remove_filter: 'Διαγραφή φίλτρου',
-            back: 'Επιστροφή'
+            cancel: 'Ακυρωση',
+            refresh: 'Ανανεωση',
+            add_filter: 'Προσθηκη φιλτρου',
+            remove_filter: 'Διαγραφη φιλτρου',
+            back: 'Επιστροφη'
         },
         boolean: {
             true: 'Ναι',
