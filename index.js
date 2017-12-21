@@ -6,7 +6,7 @@ module.exports = {
             list: 'Λιστα',
             save: 'Αποθηκευση',
             create: 'Δημιουργια',
-            edit: 'Επεξεργασία',
+            edit: 'Επεξεργασια',
             cancel: 'Ακυρωση',
             refresh: 'Ανανεωση',
             add_filter: 'Προσθηκη φιλτρου',
