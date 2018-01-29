@@ -1,3 +1,7 @@
+[![npm](https://img.shields.io/npm/dw/aor-language-greek.svg)](https://www.npmjs.com/package/aor-language-greek)
+[![npm](https://img.shields.io/npm/v/aor-language-greek.svg)](https://www.npmjs.com/package/aor-language-greek)
+[![npm](https://img.shields.io/npm/l/aor-language-greek.svg)](https://www.npmjs.com/package/aor-language-greek)
+
 # Greek Translations for Admin-on-rest
 
 Greek translations for [admin-on-rest](https://github.com/marmelab/admin-on-rest), the frontend framework for building admin applications on top of REST services.
