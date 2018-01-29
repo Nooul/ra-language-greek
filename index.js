@@ -1,7 +1,7 @@
 module.exports = {
      aor: {
         action: {
-            delete: 'Διαγραφή',
+            delete: 'Διαγραφη',
             show: 'Εμφανιση',
             list: 'Λιστα',
             save: 'Αποθηκευση',
