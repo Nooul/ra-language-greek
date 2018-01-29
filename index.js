@@ -49,8 +49,8 @@ module.exports = {
             page_out_from_end: 'Δεν είναι δυνατή η περιήγηση μετά την τελευταία σελίδα',
             page_out_from_begin: 'Δεν είναι δυνατή η περιήγηση πριν την 1η σελίδα',
             page_range_info: '%{offsetBegin}-%{offsetEnd} από %{total}',
-            next: 'Επόμενη',
-            prev: 'Προηγούμενη',
+            next: 'Επομενη',
+            prev: 'Προηγουμενη',
         },
         auth: {
             username: 'Όνομα χρήστη',
