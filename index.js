@@ -55,7 +55,7 @@ module.exports = {
         auth: {
             username: 'Όνομα χρήστη',
             password: 'Κωδικός χρήστη',
-            sign_in: 'Είσοδος',
+            sign_in: 'Εισοδος',
             sign_in_error: 'Η ταυτοποίηση απέτυχε, προσπαθήστε ξανά',
             logout: 'Αποσύνδεση',
         },
