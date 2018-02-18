@@ -1,6 +1,6 @@
 {
-  "name": "aor-language-greek",
-  "version": "0.0.7",
+  "name": "ra-language-greek",
+  "version": "0.1.0",
   "description": "Greek translations for admin-on-rest, the frontend framework for building admin applications on top of REST services",
   "main": "index.js",
   "scripts": {
