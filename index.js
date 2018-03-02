@@ -57,7 +57,7 @@ module.exports = {
             password: 'Κωδικός χρήστη',
             sign_in: 'Εισοδος',
             sign_in_error: 'Η ταυτοποίηση απέτυχε, προσπαθήστε ξανά',
-            logout: 'Αποσύνδεση',
+            logout: 'Αποσυνδεση',
         },
         notification: {
             updated: 'Η εγγραφή ανανεώθηκε',
