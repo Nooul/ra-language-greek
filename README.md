@@ -1,6 +1,6 @@
-[![npm](https://img.shields.io/npm/dw/aor-language-greek.svg)](https://www.npmjs.com/package/aor-language-greek)
-[![npm](https://img.shields.io/npm/v/aor-language-greek.svg)](https://www.npmjs.com/package/aor-language-greek)
-[![npm](https://img.shields.io/npm/l/aor-language-greek.svg)](https://www.npmjs.com/package/aor-language-greek)
+[![npm](https://img.shields.io/npm/dw/ra-language-greek.svg)](https://www.npmjs.com/package/ra-language-greek)
+[![npm](https://img.shields.io/npm/v/ra-language-greek.svg)](https://www.npmjs.com/package/ra-language-greek)
+[![npm](https://img.shields.io/npm/l/ra-language-greek.svg)](https://www.npmjs.com/package/ra-language-greek)
 
 # Greek Translations for Admin-on-rest
 
@@ -11,13 +11,13 @@ Greek translations for [admin-on-rest](https://github.com/marmelab/admin-on-rest
 ## Installation
 
 ```sh
-npm install --save aor-language-greek
+npm install --save ra-language-greek
 ```
 
 ## Usage
 
 ```js
-import greekMessages from 'aor-language-greek';
+import greekMessages from 'ra-language-greek';
 
 const messages = {
     'el': greekMessages,
@@ -27,6 +27,12 @@ const messages = {
   ...
 </Admin>
 ```
+
+## Versions
+
+Download version 0.0.7 for admin-on-rest 1.4.x
+
+Download version 0.1.x for react-admin 2.x.x
 
 ## License
 
