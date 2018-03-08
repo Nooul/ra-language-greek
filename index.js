@@ -11,7 +11,8 @@ module.exports = {
             refresh: 'Ανανεωση',
             add_filter: 'Προσθηκη φιλτρου',
             remove_filter: 'Διαγραφη φιλτρου',
-            back: 'Επιστροφη'
+            back: 'Επιστροφη',
+            sort: 'Ταξινόμηση',
         },
         boolean: {
             true: 'Ναι',
@@ -24,7 +25,7 @@ module.exports = {
             create: 'Δημιουργία %{name}',
             delete: 'Διαγραφή %{name} #%{id}',
             dashboard: 'Αρχική',
-            not_found: 'Η σελίδα δεν υπάρχει'
+            not_found: 'Η σελίδα δεν υπάρχει',
         },
         input: {
             file: {
