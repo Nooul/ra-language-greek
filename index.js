@@ -8,6 +8,7 @@ module.exports = {
             create: 'Δημιουργια',
             edit: 'Επεξεργασια',
             cancel: 'Ακυρωση',
+            undo: 'Αναιρεση',
             refresh: 'Ανανεωση',
             add_filter: 'Προσθηκη φιλτρου',
             remove_filter: 'Διαγραφη φιλτρου',
@@ -70,6 +71,7 @@ module.exports = {
             deleted: 'Η εγγραφή διαγράφηκε',
             item_doesnt_exist: 'Η εγγραφή δεν υπάρχει',
             http_error: 'Σφάλμα επικοινωνίας με τον διακομιστή',
+            canceled: 'Η ενέργεια ακυρώθηκε',
         },
         validation: {
             required: 'Υποχρεωτικό',
