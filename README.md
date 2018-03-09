@@ -30,9 +30,9 @@ const messages = {
 
 ## Versions
 
-Download version 0.0.7 for admin-on-rest 1.4.x
+Download version aor-language-greek 0.0.7 for admin-on-rest 1.4.x
 
-Download version 0.1.x for react-admin 2.x.x
+Download version ra-language-greek 0.1.x for react-admin 2.x.x
 
 ## License
 

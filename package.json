@@ -1,6 +1,6 @@
 {
   "name": "ra-language-greek",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Greek translations for react-admin (former: admin-on-rest), the frontend framework for building admin applications on top of REST services",
   "main": "index.js",
   "scripts": {
