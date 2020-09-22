@@ -1,4 +1,5 @@
 module.exports = {
+    "Not found": "Δεν βρέθηκε",
     ra: {
         action: {
             delete: 'Διαγραφη',
@@ -17,7 +18,9 @@ module.exports = {
             bulk_actions: '%{smart_count} επιλεγμένα',
             unselect: 'Καθαρισμός',
             expand: 'Επέκταση',
-            search: 'Αναζήτηση'
+            search: 'Αναζήτηση',
+            close: 'Κλείσιμο',
+            clear_input_value: 'Καθαρισμός'
         },
         boolean: {
             true: 'Ναι',
@@ -31,6 +34,7 @@ module.exports = {
             dashboard: 'Αρχική',
             not_found: 'Η σελίδα δεν υπάρχει',
             loading: 'Φόρτωση',
+            error: 'Σελίδα σφάλματος'
         },
         input: {
             file: {
@@ -63,6 +67,7 @@ module.exports = {
                 'Διαγραφή %{name} |||| Διαγραφή %{smart_count} %{name} εγγραφών',
             bulk_delete_content:
                 'Είστε σίγουρος ότι θέλετε να διαγράψετε το %{name}? |||| Είστε σίγουρος ότι θέλετε να διαγράψετε αυτές τις %{smart_count} εγγραφές?',
+            details: 'Πληροφορίες'
         },
         navigation: {
             no_results: 'Δεν βρέθηκαν αποτελέσματα',
@@ -91,6 +96,7 @@ module.exports = {
             item_doesnt_exist: 'Η εγγραφή δεν υπάρχει',
             http_error: 'Σφάλμα επικοινωνίας με τον διακομιστή',
             canceled: 'Η ενέργεια ακυρώθηκε',
+            logged_out: 'Αποσυνδεθήκατε'
         },
         validation: {
             required: 'Υποχρεωτικό',
