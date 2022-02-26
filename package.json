@@ -1,0 +1,33 @@
+{
+    "name": "ra-language-greek",
+    "version": "3.19.10",
+    "description": "Greek messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/panterz/ra-language-greek.git"
+    },
+    "main": "lib/index.js",
+    "module": "esm/index.js",
+    "types": "esm/index.d.ts",
+    "scripts": {
+        "build": "yarn run build-cjs && yarn run build-esm",
+        "build-cjs": "rimraf ./lib && tsc",
+        "build-esm": "rimraf ./esm && tsc --outDir esm --module es2015",
+        "watch": "tsc --outDir esm --module es2015 --watch"
+    },
+    "dependencies": {
+        "ra-core": "^3.19.10"
+    },
+    "keywords": [
+        "react",
+        "react-admin",
+        "admin-on-rest",
+        "translation"
+    ],
+    "author": "Panagiotis Terzis",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/panterz/ra-language-greek/issues"
+    },
+    "homepage": "https://github.com/panterz/ra-language-greek/#readme"
+}
