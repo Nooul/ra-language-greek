@@ -109,7 +109,7 @@ const elMessages: TranslationMessages = {
       page_range_info: "%{offsetBegin}-%{offsetEnd} από %{total}",
       page_rows_per_page: "Καταχωρήσεις ανά σελίδα: ",
       next: "Επόμενη",
-      prev: "Προηγούμενη",
+      previous: "Προηγούμενη",
       skip_nav: "Παράκαμψη",
     },
     notification: {
