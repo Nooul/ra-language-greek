@@ -1,4 +1,4 @@
-# Czech Messages for React-Admin
+# Greek Messages for React-Admin
 
 Greek messages for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST/GraphQL services.
 
