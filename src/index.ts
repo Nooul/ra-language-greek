@@ -6,7 +6,7 @@ const elMessages: TranslationMessages = {
       add_filter: "Προσθήκη φίλτρου",
       add: "Προσθήκη",
       back: "Πίσω",
-      bulk_actions: "%{smart_count} επιλεγμένα",
+      bulk_actions: "1 επιλεγμένο |||| %{smart_count} επιλεγμένα",
       cancel: "Ακύρωση",
       clear_input_value: "Καθαρισμός",
       clone: "Δημιουργία αντιγράφου",
@@ -14,7 +14,7 @@ const elMessages: TranslationMessages = {
       close_menu: "Κλείσιμο μενού",
       confirm: "Επιβεβαίωση",
       create: "Δημιουργία",
-      create_item: "Δημιοργία αντικειμένου",
+      create_item: "Δημιουργία αντικειμένου",
       delete: "Διαγραφή",
       edit: "Επεξεργασία",
       expand: "Επέκταση",
@@ -23,9 +23,11 @@ const elMessages: TranslationMessages = {
       move_down: "Μετακίνηση κάτω",
       move_up: "Μετακίνηση πάνω",
       open_menu: "Άνοιγμα μενού",
+      close_menu: "Κλείσιμο μενού",
       refresh: "Ανανέωση",
       remove: "Διαγραφή",
       remove_filter: "Διαγραφή φίλτρου",
+      remove_all_filters: "Διαγραφή όλων των φίλτρων",
       save: "Αποθήκευση",
       search: "Αναζήτηση",
       select_all: "Επιλογή όλων",
@@ -35,6 +37,7 @@ const elMessages: TranslationMessages = {
       undo: "Αναίρεση",
       unselect: "Απεπιλογή",
       update: "Ενημέρωση",
+      toggle_theme: "Αλλαγή θέματος",
     },
     auth: {
       auth_check_error: "Παρακαλώ εισέλθετε για να συνεχίσετε",
@@ -64,26 +67,26 @@ const elMessages: TranslationMessages = {
           "Τοποθετήστε μια εικόνα για μεταφόρτωση ή κάντε κλικ για να την επιλέξετε.",
       },
       password: {
-        toggle_hidden: "Κρύψτε κωδικό",
-        toggle_visible: "Δείξτε κωδικό",
+        toggle_hidden: "Απόκρυψη κωδικού",
+        toggle_visible: "Εμφάνιση κωδικού",
       },
       references: {
         all_missing: "Δεν βρέθηκαν αποτελέσματα",
         many_missing:
-          "Τουλάχιστον μία από τις σχετικές αναφορές δεν φαίνεται πλέον να είναι διαθέσιμη. ",
+          "Τουλάχιστον μία από τις σχετικές αναφορές δεν φαίνεται πλέον να είναι διαθέσιμη.",
         single_missing:
-          "Η συσχετισμένη αναφορά δεν φαίνεται πλέον να είναι διαθέσιμη.",
+          "Η συσχετιζόμενη αναφορά δεν φαίνεται πλέον να είναι διαθέσιμη.",
       },
     },
     message: {
       about: "Σχετικά",
       are_you_sure: "Είστε σίγουρος;",
       bulk_delete_content:
-        "Είστε σίγουρος ότι θέλετε να διαγράψετε το %{name}? |||| Είστε σίγουρος ότι θέλετε να διαγράψετε αυτές τις %{smart_count} εγγραφές?'",
+        "Είστε σίγουρος ότι θέλετε να διαγράψετε το %{name}? |||| Είστε σίγουρος ότι θέλετε να διαγράψετε αυτές τις %{smart_count} εγγραφές?",
       bulk_delete_title:
         "Διαγραφή %{name} |||| Διαγραφή %{smart_count} %{name} εγγραφών",
       bulk_update_content:
-        "Είστε σιγουρος ότι θέλετε να ενημερώσετε το %{name}? |||| Είστε σιγουρος ότι θέλετε να ενημερώσετε αυτά τα %{smart_count} αντικείμενα?",
+        "Είστε σίγουρος ότι θέλετε να ενημερώσετε το %{name}? |||| Είστε σιγουρος ότι θέλετε να ενημερώσετε αυτά τα %{smart_count} αντικείμενα?",
       bulk_update_title:
         "Ενημέρωση %{name} |||| Ενημέρωση %{smart_count} %{name}",
       delete_content: "Σίγουρα θέλετε να το διαγράψετε;",
@@ -107,9 +110,15 @@ const elMessages: TranslationMessages = {
         "Δεν είναι δυνατή η περιήγηση μετά την τελευταία σελίδα",
       page_out_from_begin: "Δεν είναι δυνατή η περιήγηση πριν την 1η σελίδα",
       page_range_info: "%{offsetBegin}-%{offsetEnd} από %{total}",
-      page_rows_per_page: "Καταχωρήσεις ανά σελίδα: ",
-      next: "Επόμενη",
-      previous: "Προηγούμενη",
+      partial_page_range_info:
+        '%{offsetBegin}-%{offsetEnd} άνω των %{offsetEnd}',
+      current_page: 'Σελίδα %{page}',
+      page: 'Πήγαινε στη σελίδα %{page}',
+      first: 'Πήγαινε στην πρώτη σελίδα',
+      last: 'Πήγαινε στην τελευταία σελίδα',
+      next: 'Πήγαινε στην επόμενη σελίδα',
+      previous: 'Πήγαινε στην προηγούμενη σελίδα',
+      page_rows_per_page: "Καταχωρήσεις ανά σελίδα:",
       skip_nav: "Παράκαμψη",
     },
     notification: {
@@ -123,7 +132,7 @@ const elMessages: TranslationMessages = {
       i18n_error: "Δεν βρέθηκαν οι μεταφράσεις για την συγκεκριμένη γλώσσα",
       item_doesnt_exist: "Η εγγραφή δεν υπάρχει",
       logged_out: "Αποσυνδεθήκατε",
-      not_authorized: "Δεν έχετε εξουσιοδότηση πρόσβασης σε αυτή την σελίδα.",
+      not_authorized: "Δεν έχετε εξουσιοδότηση πρόσβασης σ' αυτή τη σελίδα.",
       updated: "Εγγραφή ανανεώθηκε |||| %{smart_count} εγγραφές ανανεώθηκαν",
     },
     page: {
@@ -154,6 +163,18 @@ const elMessages: TranslationMessages = {
       regex: "Πρέπει να ακολουθεί συγκεκριμένο φορμάτ (regexp): %{pattern}",
       required: "Υποχρεωτικό",
     },
+    saved_queries: {
+      label: 'Αποθηκευμένες επερωτήσεις',
+      query_name: 'Όνομα επερώτησης',
+      new_label: 'Αποθήκευση επερώτησης...',
+      new_dialog_title: 'Αποθήκευση επερώτησης ως',
+      remove_label: 'Διαγραφή αποθηκευμένης επερώτησης',
+      remove_label_with_name: 'Διαγραφή επερώτησης "%{name}"',
+      remove_dialog_title: 'Διαγραφή αποθηκευμένης επερώτησης;',
+      remove_message:
+        'Είστε σίγουρος ότι θέλετε να διαγράψετε αυτή την επερώτηση από τις αποθηκευμένες;',
+      help: 'Φίλτραρε τη λίστα και αποθήκευσε αυτή την επερώτηση για αργότερα',
+        }
   },
 };
 
