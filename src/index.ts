@@ -11,7 +11,6 @@ const elMessages: TranslationMessages = {
       clear_input_value: "Καθαρισμός",
       clone: "Δημιουργία αντιγράφου",
       close: "Κλείσιμο",
-      close_menu: "Κλείσιμο μενού",
       confirm: "Επιβεβαίωση",
       create: "Δημιουργία",
       create_item: "Δημιουργία αντικειμένου",
