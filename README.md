@@ -2,11 +2,9 @@
 [![npm](https://img.shields.io/npm/v/ra-language-greek.svg)](https://www.npmjs.com/package/ra-language-greek)
 [![npm](https://img.shields.io/npm/l/ra-language-greek.svg)](https://www.npmjs.com/package/ra-language-greek)
 
-# Greek Translations for Admin-on-rest
+# Greek Messages for React-Admin
 
-Greek translations for [admin-on-rest](https://github.com/marmelab/admin-on-rest), the frontend framework for building admin applications on top of REST services.
-
-![admin-on-rest demo](http://static.marmelab.com/admin-on-rest.gif)
+Greek messages for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST/GraphQL services.
 
 ## Installation
 
@@ -17,23 +15,20 @@ npm install --save ra-language-greek
 ## Usage
 
 ```js
-import greekMessages from 'ra-language-greek';
+import elMessages from "ra-language-greek";
+import polyglotI18nProvider from "ra-i18n-polyglot";
 
 const messages = {
-    'el': greekMessages,
+  el: elMessages,
 };
 
-<Admin locale="el" messages={messages}>
+const i18nProvider = polyglotI18nProvider((locale) => messages[locale]);
+
+<Admin locale="el" i18nProvider={i18nProvider}>
   ...
-</Admin>
+</Admin>;
 ```
-
-## Versions
-
-Download version aor-language-greek 0.0.7 for admin-on-rest 1.4.x
-
-Download version ra-language-greek 0.1.x for react-admin 2.x.x
 
 ## License
 
-This translation is licensed under the [MIT Licence](LICENSE), and sponsored by [marmelab](http://marmelab.com).
+This translation is licensed under the MIT License.

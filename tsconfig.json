@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "rootDir": "src",
+      "declaration": true,
+      "declarationMap": true,
+      "sourceMap": true,
+      "allowJs": false,
+      "target": "ES5",
+      "module": "commonjs",
+      "lib": [
+        "es2017",
+        "DOM"
+      ],
+      "jsx": "react",
+      "noImplicitAny": false,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "exclude": ["**/*.spec.ts", "**/*.spec.tsx", "**/*.spec.js"],
+    "include": ["src"]
+}

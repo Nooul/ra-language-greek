@@ -1,25 +1,44 @@
 {
-  "name": "ra-language-greek",
-  "version": "0.1.6",
-  "description": "Greek translations for react-admin (former: admin-on-rest), the frontend framework for building admin applications on top of REST services",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zifnab87/aor-language-greek.git"
-  },
-  "keywords": [
-    "react-admin",
-    "react",
-    "admin-on-rest",
-    "translation"
-  ],
-  "author": "Michail Michailidis",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/zifnab87/aor-language-greek/issues"
-  },
-  "homepage": "https://github.com/zifnab87/aor-language-greek#readme"
+    "name": "ra-language-greek",
+    "version": "4.4.1",
+    "description": "Greek messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nooul/ra-language-greek.git"
+    },
+    "files": [
+        "*.md",
+        "dist",
+        "src"
+    ],
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "types": "dist/cjs/index.d.ts",
+    "scripts": {
+        "build": "yarn build-cjs && yarn build-esm",
+        "build-cjs": "rimraf ./dist/cjs && tsc --outDir dist/cjs",
+        "build-esm": "rimraf ./dist/esm && tsc --outDir dist/esm --module es2015",
+        "watch": "tsc --outDir dist/esm --module es2015 --watch",
+        "prepublishOnly": "yarn build"
+    },
+    "keywords": [
+        "react",
+        "react-admin",
+        "admin-on-rest",
+        "translation"
+    ],
+    "author": "Michail Michailidis & Panagiotis Terzis",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Nooul/ra-language-greek/issues"
+    },
+    "homepage": "https://github.com/Nooul/ra-language-greek/#readme",
+    "dependencies": {
+        "global": "^4.4.0",
+        "ra-core": "^4.4.1"
+    },
+    "devDependencies": {
+        "rimraf": "^3.0.2",
+        "typescript": "^4.8.4"
+    }
 }
