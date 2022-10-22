@@ -34,7 +34,6 @@
     },
     "homepage": "https://github.com/Nooul/ra-language-greek/#readme",
     "dependencies": {
-        "global": "^4.4.0",
         "ra-core": "^4.4.1"
     },
     "devDependencies": {
