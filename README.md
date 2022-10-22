@@ -29,6 +29,14 @@ const i18nProvider = polyglotI18nProvider((locale) => messages[locale]);
 </Admin>;
 ```
 
+Download version aor-language-greek 0.0.7 for admin-on-rest 1.4.x
+
+Download version ra-language-greek 0.1.x for react-admin 2.x.x
+
+Download version ra-language-greek 4.4.1 for react-admin 4.4.1
+
+(fron now on the two will have matching versions as there is dependency on ra-core)
+
 ## License
 
 This translation is licensed under the MIT License.
