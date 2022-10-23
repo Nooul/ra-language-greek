@@ -37,7 +37,7 @@ Download version ra-language-greek 3.19.10 for react-admin 3.19.x
 
 Download version ra-language-greek 4.4.4 for react-admin 4.4.x
 
-(fron now on the two will have matching versions as there is dependency on ra-core.. if more versions are needed due to bugs there will be in the form 4.4.x.y)
+(from now on the two will have matching versions as there is dependency on ra-core.. if more versions are needed due to bugs there will be in the form 4.4.x.y)
 
 
 
